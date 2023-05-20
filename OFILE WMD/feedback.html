@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="welcome.html"><img src="images/wb_logo.png" alt="Logo"></a>
+      </div>
+      <div class="search-container">
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+          <button type="submit">Go</button>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="welcome.html">Welcome</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="tv_shows.html">TV Shows</a></li>
+        <li><a href="games&apps.html">Games & Apps</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    
+    <form action="thank_you.html">
+        <legend>Subscribe Now</legend><br>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name" required
+          oninvalid="this.setCustomValidity('Please Enter Your First Name')" oninput="this.setCustomValidity('')"
+          value=""><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required
+          oninvalid="this.setCustomValidity('Please Enter Your Last Name')" oninput="this.setCustomValidity('')"
+          value=""><br><br>
+        <label for="fname">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Email" required
+          oninvalid="this.setCustomValidity('Please Enter Your Email Address ')" oninput="this.setCustomValidity('')"
+          value=""><br><br>
+        <label for="fname">Country:</label><br>
+        <input type="text" id="country" name="country" placeholder="Country" required
+          oninvalid="this.setCustomValidity('Please Enter Your Country')" oninput="this.setCustomValidity('')"
+          value=""><br><br>
+        <label for="fname">Region:</label><br>
+        <input type="text" id="region" name="region" placeholder="Region" required
+          oninvalid="this.setCustomValidity('Please Enter Your Region')" oninput="this.setCustomValidity('')"
+          value=""><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Warner Bros. All rights reserved.</p>
+        </div>
+      </footer>
+
+</body>
+</html>
